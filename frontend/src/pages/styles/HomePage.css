@@ -1,0 +1,22 @@
+.homepage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.homepage > * {
+  flex-grow: 1;
+}
+
+/* Для категорій */
+.categories-menu {
+  flex: 1;
+  max-width: 300px; /* Фіксована ширина для бокової панелі */
+}
+
+/* Для списку товарів */
+.product-list {
+  flex: 3; /* Більший розмір для товарів */
+}

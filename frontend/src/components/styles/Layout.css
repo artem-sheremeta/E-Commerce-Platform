@@ -1,0 +1,39 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2b2a2a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header {
+  background-color: #2b2a2a;
+  color: white;
+  padding: 15px 20px;
+}
+
+.chat-fab {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  cursor: pointer;
+}

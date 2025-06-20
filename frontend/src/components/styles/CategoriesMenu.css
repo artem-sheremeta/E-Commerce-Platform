@@ -1,0 +1,31 @@
+.categories-menu {
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.categories-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.category-item:hover {
+  background-color: #e9ecef;
+}
+
+.category-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.category-name {
+  font-size: 16px;
+}
